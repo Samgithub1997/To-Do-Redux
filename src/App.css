@@ -1,0 +1,15 @@
+body{
+  background: whitesmoke;
+}
+
+.App {
+  text-align: center;
+  margin: 20px;
+}
+
+.ToDoContainer{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+}

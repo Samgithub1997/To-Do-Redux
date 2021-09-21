@@ -1,0 +1,64 @@
+.todoDiv{
+    width: 50%;
+    background: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 5px;
+    height: 30px;
+}
+
+.inputToDo {
+    width: 90%;
+    border: none;
+    outline: none;
+    margin-left: 10px;
+}
+
+.btnAdd {
+    background-color:whitesmoke;
+    outline: none;
+    border: none;
+    margin-right: 10px;
+    padding: 6px;
+    border-radius: 8px;
+    color: gray;
+}
+
+.btnRem {
+    background-color:whitesmoke;
+    outline: none;
+    border: none;
+    margin-right: 10px;
+    padding: 5px;
+    padding-left: 12px;
+    padding-right: 12px;
+    border-radius: 5px;
+    color: gray;
+}
+
+.each_item {
+    display: flex;
+    border: none !important;
+    outline: none;
+    justify-content: space-between;
+    align-items: center;
+    width: 40%;
+    height: 25px;
+    background: white;
+    margin: 5px;
+    padding: 5px;
+    color: gray;
+}
+
+.btnRem:hover{
+    color: black;
+}
+
+.btnAdd:hover{
+    color: black;
+}
+
+.each_item:hover{
+    color: black;
+}
